@@ -1,0 +1,71 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=Verbindungstest
+base_path=C:\\Users\\eikoS\\Desktop\\Private Unterlagen\\Programme\\Python Programme\\Raspberrry_pi\\Verbindungstest\\
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=0
+FILE_NAME_0=143;Python;0;EUTF-8;1;1;0;C%3A%5CUsers%5CeikoS%5CDesktop%5CPrivate%20Unterlagen%5CProgramme%5CPython%20Programme%5CRaspberrry_pi%5Challo_pi.py;0;4
+
+[build-menu]
+EX_00_LB=_Ausführen (Lokal)
+EX_00_CM=python "%f"
+EX_00_WD=
+NoneFT_00_LB=_Kompilieren
+NoneFT_00_CM=python -m py_compile "%f"
+NoneFT_00_WD=
+NoneFT_01_LB=_Hinunterladen/_Ausführen
+NoneFT_01_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -copyrunx "%f"
+NoneFT_01_WD=
+NoneFT_02_LB=_Hinunterladen
+NoneFT_02_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -copy "%f"
+NoneFT_02_WD=
+filetypes=None;Python;
+NF_00_LB=
+NF_00_CM=
+NF_00_WD=
+NF_01_LB=_IP Adresse abfragen
+NF_01_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -setip 192.168.1.63
+NF_01_WD=
+NF_02_LB=Herunterfahren
+NF_02_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -shutdown
+NF_02_WD=
+NF_03_LB=_Neu starten
+NF_03_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -restart
+NF_03_WD=
+EX_01_LB=_Remote Terminal
+EX_01_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -rterminal
+EX_01_WD=
+EX_02_LB=_Python beenden
+EX_02_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -kill
+EX_02_WD=
+PythonFT_01_LB=Hinunterladen/_Ausführen
+PythonFT_01_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -copyrunx "%f"
+PythonFT_01_WD=
+PythonFT_02_LB=_Hinunterladen
+PythonFT_02_CM=java -jar c:\\rrm\\RaspiRemoteManager.jar -copy "%f"
+PythonFT_02_WD=
