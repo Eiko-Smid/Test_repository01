@@ -18,7 +18,7 @@ def addAndPrint(a, b):
 
 def aubAndPrint(a, b):
     c = a-b
-    print("Das Ergebnis lautet: ", c)
+    print("Das Ergebnis der Subtraktion lautet: ", c)
     return c
 
 
