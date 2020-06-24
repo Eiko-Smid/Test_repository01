@@ -16,6 +16,12 @@ def addAndPrint(a, b):
     return c
 
 
+def aubAndPrint(a, b):
+    c = a-b
+    print("Das Ergebnis lautet: ", c)
+    return c
+
+
 
 addAndPrint(10, 5)
 
